@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sima - Portfolio</title>
+  <link rel="shortcut icon" type="image/webp" href="img/favicon.jpg">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <main>
+    <div>
+      <!-- Header including the logo and the main navigation -->
+      <header class="page-header">
+        <!-- Add your logo here -->
+        <img src="img/logo.jpg" alt="logo" width="200" height="70" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+            </li>
+            <li role="presentation">
+              <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+            </li>
+            <li role="presentation">
+              <a href="work.html" role="menuitem" class="navigation-list__item">My Work</a>
+          </li>
+            <li role="presentation">
+              <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div>
+      <h1>Contact</h1>
+     <br>
+        <h2>United kingdom</h2>
+        <p>West Midlands</p>
+        <p>Birmingham</p>
+        <p>B44 9QX</p>
+        <br>
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required>
+
+            <label class="standard-label" for="contact-Telephone">Telephone: </label>
+            <input type="tel" id="contact-Telephone">
+
+            <label class="standard-label" for="contact-Message">Message: </label>
+            <textarea id="contact-Message" required="" maxlength="240"></textarea>
+            <input type="submit" id="submit-Message" value="Send message">
+        </form>
+        <br>
+        <a href="tel:+447849633620">Tel: +44 78 4963 3620</a>
+        <br>
+        <a href="mailto:sima.pac@outlook.com">Email: sima.pac@outlook.com</a>
+        <br>
+    </div>
+    <footer class="page-footer">
+      <nav>
+          <div>
+              
+                  <div class="social-media">
+                      <p>Find me on</p>
+                      <img src="img/linkedinicon.svg" alt="Visit my LinkedIn profile">
+                  </div>
+          </div>
+          <a href="#">Back to top</a>
+      </nav>
+  </footer>
+    <script src="js/tota11y.min.js"></script>
+  </main>
+</body>
